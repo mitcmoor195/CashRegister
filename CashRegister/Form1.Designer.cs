@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.titleLabel = new System.Windows.Forms.Label();
             this.hatLabel = new System.Windows.Forms.Label();
             this.bookLabel = new System.Windows.Forms.Label();
@@ -395,6 +396,7 @@
             this.Controls.Add(this.bookLabel);
             this.Controls.Add(this.hatLabel);
             this.Controls.Add(this.titleLabel);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Wizard Shoppe";
             ((System.ComponentModel.ISupportInitialize)(this.hatsInput)).EndInit();
