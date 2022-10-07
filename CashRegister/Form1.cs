@@ -10,6 +10,12 @@ using System.Windows.Forms;
 using System.Threading;
 using System.Media;
 
+
+/// Ye Olde Wizard Shoppe
+/// October 7 2022
+/// Mitchell Moore
+/// This is a cash register program that takes inputs from 3 different types of items with different [price] values
+/// and then prints a reciept based on the value of those items combined and the amount of "money" inputed
 namespace CashRegister
 {
     public partial class Form1 : Form
